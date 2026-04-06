@@ -21,7 +21,7 @@ int main()
   printf("=== 스마트 홈트 & 다이어트 매니저 V1.0 ===\n");
 
   printf("사용자의 이니셜(영문 1글자)을 입력하세여: ");
-  scanf(" %c", &initial); //버퍼 문제를 막기 위해 %c 앞에 공백 추가
+  scanf(" %c", &initial);   //버퍼 문제를 막기 위해 %c 앞에 공백 추가
 
   printf("나이를 입력하세요: ");
   scanf("%d", &age);
